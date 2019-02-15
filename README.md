@@ -6,7 +6,7 @@ Welcome to WU-CRISPR_2.0, the Washington University gRNA designer for CRISPR/Cas
 REQUIREMENTS
 
 1. A Perl 5 interpreter or higher on a Red-Hat compatible Linux system is required.
-2. 2.	A Python 3.7 and the latest version of NumPy, SciPy, scikit-learn, xgboost Python packages are highly recommended to be used. If using old version of these, there might be some dependency issues.
+2. A Python 3.7 and the latest version of NumPy, SciPy, scikit-learn, xgboost Python packages are highly recommended to be used. If using old version of these, there might be some dependency issues.
 
 INSTALLATION OF WU-CRISPR STANDALONE PROGRAM
 
