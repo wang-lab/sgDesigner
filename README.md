@@ -15,5 +15,5 @@ INSTALLATION OF sgDesigner STANDALONE PROGRAM
 2. Copy your input FASTA files into the newly created sgDesigner directory.
 3. Type 'perl sgDesigner.pl' to run the program and view the help file.
 
-A README file is included in the WU-CRISPR standalone package, with examples and detailed explanations of the commands available.
+A README file is included in the sgDesigner standalone package, with examples and detailed explanations of the commands available.
 
