@@ -12,7 +12,7 @@ Welcome to sgDesigner, the Washington University gRNA designer for CRISPR/Cas9 k
 ```
 
 2. A Perl 5 interpreter or higher on a Red-Hat compatible Linux system is required.
-3. A Python 3.7.0 is used to generate the model and do the prediction. A simple installation of the packages could probabily just be done with pip. (https://scipy.org/install.html) The versions of Python packages are, specifically:
+3. A Python 3.7.0 is used to generate the model and do the prediction. A simple installation of the packages could be done with pip. (https://scipy.org/install.html) The versions of Python packages are, specifically:
 
 ```
    NumPy: 1.15.2
