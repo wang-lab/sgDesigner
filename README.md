@@ -9,8 +9,6 @@ Welcome to sgDesigner, the Washington University gRNA designer for CRISPR/Cas9 k
 
 ```
    Linux: CentOS 7.1.1503
-   Mac OSX:
-   Windows:
 ```
 
 2. A Perl 5 interpreter or higher on a Red-Hat compatible Linux system is required.
