@@ -27,16 +27,12 @@ Welcome to sgDesigner, the Washington University gRNA designer for CRISPR/Cas9 k
    
 ## Installation of sgDesigner standalone program
 
-1. Place the sgDesigner.tar.gz file anywhere in your Linux system and uncompress using the following command:
-
+* Place the sgDesigner.tar.gz file anywhere in your Linux system and uncompress using the following command:
 ```
    'tar -xzvf sgDesigner.tar.gz'
 ```
-   The installation should complete within 5 seconds.
-
-2. Copy your input FASTA files into the newly created sgDesigner directory.
-
-3. Type 'perl sgDesigner.pl' to run the program and view the help file.
+* Copy your input FASTA files into the newly created sgDesigner directory.
+* Type 'perl sgDesigner.pl' to run the program and view the help file.
 
 A README file is included in the sgDesigner standalone package, with examples and detailed explanations of the commands available.
 
