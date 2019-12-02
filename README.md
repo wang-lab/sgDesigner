@@ -3,6 +3,8 @@ WashU gRNA Designer for CRISPR/Cas9 Knockout
 
 Welcome to sgDesigner, the Washington University gRNA designer for CRISPR/Cas9 knockouts. This program is distributed under the GNU General Public License as published by the Free Software Foundation. You may use it freely in your research with appropriate acknowledgment. The program is provided "as is" and the authors are not responsible for consquences from the use of the program.
 
+A README file is included in the sgDesigner standalone package, with examples and detailed explanations of the commands available.
+
 ## Requirements
 
 * This package is supported for *Linux* operating systems. The package has been tested on the following systems:
@@ -34,5 +36,5 @@ Welcome to sgDesigner, the Washington University gRNA designer for CRISPR/Cas9 k
 * Copy your input FASTA files into the newly created sgDesigner directory.
 * Type 'perl sgDesigner.pl' to run the program and view the help file.
 
-A README file is included in the sgDesigner standalone package, with examples and detailed explanations of the commands available.
+
 
