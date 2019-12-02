@@ -18,13 +18,15 @@ Welcome to sgDesigner, the Washington University gRNA designer for CRISPR/Cas9 k
    * [Installation instruction](https://realpython.com/installing-python/)
    * [Python download](https://www.python.org/downloads/)
 * The versions of Python packages which sgDesigner used are, specifically:
+   * [Installation instruction of Python packages](https://packaging.python.org/tutorials/installing-packages/)
+
 ```
    NumPy: 1.15.2
    SciPy: 1.1.0
    Scikit-learn: 0.20.0
    XGBoost: 0.80
 ```
-   * [Installation instruction of Python packages](https://packaging.python.org/tutorials/installing-packages/)
+  
    
 ## Installation of sgDesigner standalone program
 
