@@ -5,14 +5,19 @@ Welcome to sgDesigner, the Washington University gRNA designer for CRISPR/Cas9 k
 
 ## Requirements
 
-1. This package is supported for *Linux* operating systems. The package has been tested on the following systems:
+* This package is supported for *Linux* operating systems. The package has been tested on the following systems:
 
 ```
    Linux: CentOS 7.1.1503
 ```
 
-2. A Perl 5 interpreter or higher on a Red-Hat compatible Linux system is required.
-3. A Python 3.7.0 is used to generate the model and do the prediction. A simple installation of the packages could be done with pip. (https://scipy.org/install.html) The versions of Python packages are, specifically:
+* Perl 5 interpreter or higher on a Red-Hat compatible Linux system is required.
+   * [Installation instruction](https://learn.perl.org/installing/)
+   * [Perl download](https://www.perl.org/get.html)
+* Python 3.7.0 is used to generate the model and do the prediction. 
+   * [Installation instruction](https://realpython.com/installing-python/)
+   * [Python download](https://www.python.org/downloads/)
+* The versions of Python packages which sgDesigner used are, specifically:
 
 ```
    NumPy: 1.15.2
@@ -20,7 +25,8 @@ Welcome to sgDesigner, the Washington University gRNA designer for CRISPR/Cas9 k
    Scikit-learn: 0.20.0
    XGBoost: 0.80
 ```
-
+   * [Installation instruction of Python packages](https://packaging.python.org/tutorials/installing-packages/)
+   
 ## Installation of sgDesigner standalone program
 
 1. Place the sgDesigner.tar.gz file anywhere in your Linux system and uncompress using the following command:
