@@ -31,7 +31,7 @@ A README file is included in the sgDesigner standalone package, with examples an
 
 * Place the sgDesigner.tar.gz file anywhere in your Linux system and uncompress using the following command:
 ```
-   'tar -xzvf sgDesigner.tar.gz'
+   tar -xzvf sgDesigner.tar.gz
 ```
 * Copy your input FASTA files into the newly created sgDesigner directory.
 * Type 'perl sgDesigner.pl' to run the program and view the help file.
@@ -43,29 +43,29 @@ A README file is included in the sgDesigner standalone package, with examples an
    
    This option allows the user to submit a single sequence directly for analysis, using the following command:
    ```
-      'perl sgDesigner.pl –s <sequence>'
+      perl sgDesigner.pl –s <sequence>
    ```
    This option is most useful for users who wish to determine the efficacy of a single gRNA. Any sequences submitted must be at least 26 bases long (including the NGG PAM region) and contain only A, T, U, C, or G. These rules also apply for any FASTA sequences that are submitted, which are covered in more detail in the next section.
 * FASTA file submission (-f or --file):
    
    This option allows the user to submit one or more sequences in a FASTA file, using the following command:
    ```
-      'perl sgDesigner.pl –f myFastaFile.fasta'
+      perl sgDesigner.pl –f myFastaFile.fasta
    ```
    This should be provided in FASTA format. In a FASTA file, a definition line that begins with begins with ‘>’ is required for each DNA sequence. For example:
    ```
-      '>gi|4507798|ref|NM_000462.1| Homo sapiens ubiquitin protein ligase E3A (UBE3A), mRNA
-       ATGGAGAAGCTGCACCAGTGTTATTGGAAATCAGGAGAACCTCAGTCTGACGACATTGAAGCTAGCCGA
-       TGAAGCGAGCAGCTGCAAAGCATCTAATAGAACGCTACTACCACCAGTTAACTGAGGGCTGTGGAAATA
-       AGCCTGCACGAATGAGTTTTGTGCTTCCTGTCCAACTTTTCTTCGTATGGATAATAATGCAGCAGCTAT
-       TAAAGCCCTCGAGCTTTATAAGATTAATGCAAAACTCTGTGATCCTCATCCCTCCAAGAAAGGAGCAAG
-       CGCAGCTTACCTTGAGAACTCGAAAGGTGCCCCCAACAACTCCTGCTCTGAGATAAAAATGAACAAGAA
-       AGG'
+      >gi|4507798|ref|NM_000462.1| Homo sapiens ubiquitin protein ligase E3A (UBE3A), mRNA
+      ATGGAGAAGCTGCACCAGTGTTATTGGAAATCAGGAGAACCTCAGTCTGACGACATTGAAGCTAGCCGA
+      TGAAGCGAGCAGCTGCAAAGCATCTAATAGAACGCTACTACCACCAGTTAACTGAGGGCTGTGGAAATA
+      AGCCTGCACGAATGAGTTTTGTGCTTCCTGTCCAACTTTTCTTCGTATGGATAATAATGCAGCAGCTAT
+      TAAAGCCCTCGAGCTTTATAAGATTAATGCAAAACTCTGTGATCCTCATCCCTCCAAGAAAGGAGCAAG
+      CGCAGCTTACCTTGAGAACTCGAAAGGTGCCCCCAACAACTCCTGCTCTGAGATAAAAATGAACAAGAA
+      AGG
    ```
    Submitted sequences must be between 26 and 100,000 nt in length and contain A, T, U, C, or G. Three sample files are also provided: one containing a single short sequence (30 nt), one with a single long sequence (8,322 nt), and one with 3 sequences of 300, 600, and 300 bases long.
 * Sample file submission:
    This option allows the user to try one of the three previously mentioned sample files, using the following command:
    ```
-      'perl sgDesigner.pl –e <short|long|multiple>'
+      perl sgDesigner.pl –e <short|long|multiple>
    ```
    One of the three options shown will call the respective sample file.
