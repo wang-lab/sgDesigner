@@ -69,3 +69,5 @@ A README file is included in the sgDesigner standalone package, with examples an
       perl sgDesigner.pl –e <short|long|multiple>
    ```
    One of the three options shown will call the respective sample file.
+   
+## Sample expected outputs
