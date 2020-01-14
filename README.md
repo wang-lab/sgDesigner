@@ -37,4 +37,6 @@ A README file is included in the sgDesigner standalone package, with examples an
 * Type 'perl sgDesigner.pl' to run the program and view the help file.
 
 
+## Command Line Parameters
+
 
