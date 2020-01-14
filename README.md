@@ -73,5 +73,6 @@ A README file is included in the sgDesigner standalone package, with examples an
 ## Sample expected outputs
 If the file is read in correctly, the following should be observed in the command line window for each submitted sequence: 
 ![sample_output1](https://github.com/wang-lab/sgDesigner/blob/master/sgDesigner_sample_output1.png)
+
 The results are made available in a tab-delimited text file saved to the sgDesigner folder.  The first line of the file contains the column headers.  Each line in the result file shows (in order) the sequence identifier, the efficacy score of the gRNA, the gRNA sequence, the orientation of the gRNA, and the location of the gRNA in the target sequence. The gRNAs are sorted by score, with higher scores indicating greater effectiveness. All gRNAs are 20 bases long.
 ![sample_output2](https://github.com/wang-lab/sgDesigner/blob/master/sgDesigner_sample_output2.png)
