@@ -71,3 +71,5 @@ A README file is included in the sgDesigner standalone package, with examples an
    One of the three options shown will call the respective sample file.
    
 ## Sample expected outputs
+If the file is read in correctly, the following should be observed in the command line window for each submitted sequence: 
+![Image description]()
