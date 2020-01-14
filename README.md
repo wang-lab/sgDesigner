@@ -39,4 +39,9 @@ A README file is included in the sgDesigner standalone package, with examples an
 
 ## Command Line Parameters
 
-
+* Direct sequence submission (-s or --sequence)
+This option allows the user to submit a single sequence directly for analysis, using the following command:
+```
+   'perl sgDesigner.pl –s <sequence>'
+```
+This option is most useful for users who wish to determine the efficacy of a single gRNA. Any sequences submitted must be at least 26 bases long (including the NGG PAM region) and contain only A, T, U, C, or G. These rules also apply for any FASTA sequences that are submitted, which are covered in more detail in the next section.
