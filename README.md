@@ -40,6 +40,7 @@ A README file is included in the sgDesigner standalone package, with examples an
 ## Command Line Parameters
 
 * Direct sequence submission (-s or --sequence):
+   
    This option allows the user to submit a single sequence directly for analysis, using the following command:
    ```
       'perl sgDesigner.pl –s <sequence>'
