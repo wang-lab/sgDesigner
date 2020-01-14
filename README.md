@@ -72,4 +72,4 @@ A README file is included in the sgDesigner standalone package, with examples an
    
 ## Sample expected outputs
 If the file is read in correctly, the following should be observed in the command line window for each submitted sequence: 
-![Image description]()
+![sample_output1](https://github.com/wang-lab/sgDesigner/blob/master/sgDesigner_sample_output1.png)
